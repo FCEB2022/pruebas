@@ -1,0 +1,209 @@
+<html>
+<head>
+    <title>
+        SECCION DE LICENCIAS DEL PERSONAL
+    </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .top-bar {
+            background-color: #f1f1f1;
+            padding: 5px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .top-bar .left, .top-bar .right {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .top-bar .left img {
+            height: 20px;
+            margin-right: 10px;
+        }
+        .top-bar .left span, .top-bar .right a, .top-bar .right span {
+            font-size: 14px;
+            white-space: nowrap;
+        }
+        .top-bar .right a {
+            margin-left: 10px;
+            color: #000;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        .header img {
+            height: 80px;
+        }
+        .header h1 {
+            font-size: 28px;
+            color: #003366;
+            margin: 10px 0;
+        }
+        .header .left-logo, .header .right-logo {
+            position: absolute;
+            top: 20px;
+        }
+        .header .left-logo {
+            left: 20px;
+        }
+        .header .right-logo {
+            right: 20px;
+        }
+        .nav-bar {
+            background-color: #fff;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+        .nav-bar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .nav-bar ul li {
+            margin: 5px 10px;
+        }
+        .nav-bar ul li a {
+            text-decoration: none;
+            color: #000;
+            font-size: 16px;
+        }
+        .nav-bar ul li a:hover {
+            text-decoration: underline;
+        }
+        .nav-bar .search {
+            position: relative;
+            margin: 10px 20px;
+            text-align: center;
+        }
+        .nav-bar .search input {
+            padding: 5px;
+            font-size: 16px;
+            width: 80%;
+            max-width: 250px;
+        }
+        .nav-bar .search button {
+            padding: 5px 10px;
+            font-size: 16px;
+            background-color: #003366;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Responsivo */
+        @media (max-width: 768px) {
+            .top-bar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .top-bar .right {
+                justify-content: flex-start;
+                margin-top: 10px;
+            }
+            .header {
+                padding: 10px;
+            }
+            .header h1 {
+                font-size: 24px;
+            }
+            .header .left-logo, .header .right-logo {
+                position: static;
+                margin-bottom: 10px;
+            }
+            .nav-bar ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            .nav-bar .search {
+                width: 100%;
+            }
+            .nav-bar .search input {
+                width: 90%;
+                max-width: 300px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 20px;
+            }
+            .top-bar .left span, .top-bar .right span, .top-bar .right a {
+                font-size: 12px;
+            }
+            .nav-bar ul li a {
+                font-size: 14px;
+            }
+            .nav-bar .search input {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="left">
+            <img alt="Flag of Côte d'Ivoire" src="https://placehold.co/20x20"/>
+            <span>
+                Le site officiel de l'Autorité Nationale de l'Aviation Civile de Côte d'Ivoire
+            </span>
+        </div>
+        <div class="right">
+            <span>
+                Journée Internationale pour la Conservation
+            </span>
+            <a href="mailto:info@anac.ci">
+                <i class="fas fa-envelope"></i> info@anac.ci
+            </a>
+            <a href="tel:+2252721586900">
+                <i class="fas fa-phone"></i> (+225) 27 21 58 69 00 / 01
+            </a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+    <div class="header">
+        <div class="left-logo">
+            <img alt="Ministère des Transports Logo" src="https://placehold.co/100x100"/>
+        </div>
+        <h1>SECCION DE LICENCIAS DEL PERSONAL</h1>
+        <div class="right-logo">
+            <img alt="République de Côte d'Ivoire Logo" src="https://placehold.co/100x100"/>
+        </div>
+    </div>
+    <div class="nav-bar">
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i></a></li>
+            <li><a href="#">Présentation</a></li>
+            <li><a href="#">Stratégie</a></li>
+            <li><a href="#">Activités</a></li>
+            <li><a href="#">Règlementation</a></li>
+            <li><a href="#">e-Services</a></li>
+            <li><a href="#">Notifications</a></li>
+            <li><a href="#">Drones</a></li>
+            <li><a href="#">Informations</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Rechercher"/>
+            <button>Rechercher</button>
+        </div>
+    </div>
+</body>
+</html>
